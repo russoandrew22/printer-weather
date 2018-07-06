@@ -8,5 +8,4 @@ gem "wunderground_ruby"
 gem "sass"
 gem "activesupport"
 gem "tzinfo"
-gem "foreman"
-gem "rails_autoscale_agent"
+
