@@ -35,7 +35,7 @@ GEM
     dm-serializer (1.2.1)
       dm-core (~> 1.2.0)
       fastercsv (~> 1.5.4)
-      json (~> 2.1.0)
+      json (~> 1.6.6)
       json_pure (~> 1.6.1)
       multi_json (~> 1.0.3)
     dm-timestamps (1.2.0)
