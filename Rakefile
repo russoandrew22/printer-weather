@@ -9,6 +9,6 @@ task :run do
   puts "Running weather jobs."
   Job.each do |j|
     puts "Processing job #{j.id}: #{j.print_url}"
-    Net::HTTP.post_form(URI.parse(j.print_url), url: "http://printer-weather.herokuapp.com/weather/#{j.id}")
+    Net::HTTP.post_form(URI.parse(j.print_url), url: "http://weatherprint.herokuapp.com/weather/#{j.id}")
   end
 end
